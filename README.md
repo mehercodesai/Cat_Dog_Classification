@@ -31,3 +31,9 @@ Visualizes class balance and displays grid layouts of training/testing images us
 - Custom Classifier Head: Added a Dense output layer with softmax activation for 2-class probability distribution.
 ### 5. Compilation: 
 Compiled using categorical cross-entropy loss and optimized via SGD/Adam
+
+## Model SummaryBase 
+- Architecture: ResNet50 (Convolutional Feature Extractor)
+- Total Parameters: ~23.59 Million
+- Trainable Parameters: Minimal (Dense classification head)
+- Non-trainable Parameters: ~23.58 Million (Frozen ResNet weights)
