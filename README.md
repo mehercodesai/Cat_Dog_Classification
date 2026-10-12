@@ -1,1 +1,1 @@
-# Cat_Dog_Classification
+# Cat vs. Dog Image Classification using Transfer Learning (ResNet50)
